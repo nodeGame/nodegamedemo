@@ -1,6 +1,6 @@
 {
     "name": "nodegame-heroku"
-  , "description": "Prepares a nodeGame instance to run on the heroku cloud."
+  , "description": "Setups the nodeGame demo to run on the heroku cloud."
   , "version": "6.0.0"
   , "homepage": "http://nodegame.org"
   , "author": "Stefano Balietti <futur.dorko@gmail.com>"
@@ -9,7 +9,7 @@
     ]
   , "repository": {
         "type": "git"
-      , "url": "https://github.com/nodeGame/nodegame-heroku.git"
+      , "url": "https://github.com/nodeGame/nodegamedemo.git"
     }
   , "keywords": [
         "Heroku",
@@ -22,7 +22,7 @@
          "fs-extra": "*",
          "smoosh": "0.4.0",
          "nodegame-client": "*",
-         "nodegame-server": "*",
+         "nodegame-server": "git://github.com/nodegame/nodegame-server.git#nophantom",
          "nodegame-window": "*",
          "nodegame-widgets": "*",
          "nodegame-requirements": "*",
