@@ -1,16 +1,13 @@
-# nodegame-heroku (beta)
+# nodegame demo
 
-nodeGame ready-to-run on the Heroku cloud.
+Code of the [Demo](https://nodegamedemo.herokuapp.com/) page, ready to run on Heroku.
 
-Read instructions on the nodeGame [wiki](https://github.com/nodeGame/nodegame/wiki/nodeGame-on-Heroku).
- 
+See also: [nodegame-heroku](https://github.com/nodeGame/nodegame-heroku).
 
-## Additional Games in Demo page.
-
-The git repos of all the games on then nodeGame's Heroku [Demo](https://nodegamedemo.herokuapp.com/) page:
+## Games in Demo
 
  - [ultimatum-game](https://github.com/nodeGame/ultimatum-game) (default)
- - [car-sharing](https://github.com/nodeGame/car-sharing) 
+ - [car-sharing](https://github.com/nodeGame/car-sharing)
  - [dictator](https://github.com/nodeGame/dictator)
  - [HawkDove](https://github.com/ewenw/HawkDove)
  - [imgscore](https://github.com/nodeGame/imgscore)
