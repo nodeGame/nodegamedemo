@@ -48,7 +48,7 @@ function configure(loggers, logDir) {
     // Messages.
     // Make custom levels and only File transports for messages.
     let msgLogger = loggers.add('messages');
-    msgLogger.remove(winston.transports.Console);
+    // msgLogger.remove(winston.transports.Console);
     msgLogger.add(winston.transports.File, {
         timestamp: true,
         maxsize: 1000000,
