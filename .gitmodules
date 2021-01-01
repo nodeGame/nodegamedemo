@@ -12,7 +12,7 @@
 	branch = demo
 [submodule "games/prisonersgame"]
 	path = games/prisonersgame
-	url = https://github.com/ewenw/prisonersgame.git
+	url = https://github.com/shakty/prisonersgame.git
 	branch = demo
 [submodule "games/ultimatum-game"]
 	path = games/ultimatum-game
