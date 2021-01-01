@@ -17,10 +17,10 @@ function configure(loggers, logDir) {
 
     // ServerNode.
     loggers.add('servernode', {
-        console: {
-            level: logLevel,
-            colorize: true
-        },
+        // console: {
+        //    level: logLevel,
+        //    colorize: true
+        // },
         file: {
             level: logLevel,
             timestamp: true,
@@ -32,10 +32,10 @@ function configure(loggers, logDir) {
 
     // Channel.
     loggers.add('channel', {
-        console: {
-            level: logLevel,
-            colorize: true,
-        },
+        // console: {
+        //    level: logLevel,
+        //    colorize: true,
+        // },
         file: {
             level: logLevel,
             timestamp: true,
@@ -79,10 +79,10 @@ function configure(loggers, logDir) {
 
     // Clients.
     loggers.add('clients', {
-        console: {
-            level: logLevel,
-            colorize: true,
-        },
+        // console: {
+        //    level: logLevel,
+        //    colorize: true,
+        // },
         file: {
             level: 'silly',
             timestamp: true,
