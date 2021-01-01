@@ -1,0 +1,24 @@
+[submodule "games/dictator"]
+	path = games/dictator
+	url = https://github.com/nodeGame/dictator.git
+[submodule "games/imgscore"]
+	path = games/imgscore
+	url = https://github.com/nodeGame/imgscore.git
+[submodule "games/car-sharing"]
+	path = games/car-sharing
+	url = https://github.com/nodeGame/car-sharing.git
+[submodule "games/prisonersgame"]
+	path = games/prisonersgame
+	url = https://github.com/shakty/prisonersgame.git
+[submodule "games/ultimatum-game"]
+	path = games/ultimatum-game
+	url = https://github.com/nodeGame/ultimatum-game.git
+[submodule "games/stopgo"]
+	path = games/stopgo
+	url = https://github.com/nodeGame/stopgo.git
+[submodule "games/meritocracy-game"]
+	path = games/meritocracy-game
+	url = https://github.com/nodeGame/meritocracy-game.git
+[submodule "games/HawkDove"]
+	path = games/HawkDove
+	url = https://github.com/ewenw/HawkDove.git
