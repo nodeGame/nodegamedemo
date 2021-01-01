@@ -34,7 +34,7 @@ function configure(servernode) {
         enabled: true,
 
         // The title to be displayed in the top bar.
-        title: "nodeGame v" + servernode.nodeGameVersion + " Showcase",
+        title: "nodeGame v6 Showcase",
 
         // The name of logo file. Empty no logo. Default: "nodegame_logo.png".
         logo: "nodegame_logo.png",
@@ -45,25 +45,25 @@ function configure(servernode) {
         colors: [ 'teal', 'green', 'indigo', 'blue' ],
 
         // Array containing cards for external games.
-        externalCards: [
-            // Format:
-            // {
-            //     name: "Game Name",
-            //     demo: "https://game.address",
-            //     url: "https://github.com/myproject",
-            //     description: "blah blah",
-            //     publication: "https://link.to.publication.com",
-            //     wiki: "https://wikipedia.com/blah",
-            //     icon: "ac_unit" // See https://materializecss.com/icons.html
-            // },
-	    {
-		    name: "Mutual Understanding",
-		    publication: "https://sites.google.com/view/mutualunderstanding",
-                    description: "How minds meet: A scientific approach (external game).",
-		    icon: "fullscreen_exit",
-		    demo: "https://sites.google.com/view/mutualunderstanding/game?authuser=0"
-            }
-        ],
+        // externalCards: [
+        //     // Format:
+        //     // {
+        //     //     name: "Game Name",
+        //     //     demo: "https://game.address",
+        //     //     url: "https://github.com/myproject",
+        //     //     description: "blah blah",
+        //     //     publication: "https://link.to.publication.com",
+        //     //     wiki: "https://wikipedia.com/blah",
+        //     //     icon: "ac_unit" // See https://materializecss.com/icons.html
+        //     // },
+        //     {
+        //         name: "Mutual Understanding",
+        //         publication: "https://sites.google.com/view/mutualunderstanding/research",
+        //         description: "How minds meet: A scientific approach (external game).",
+        //         icon: "fullscreen_exit",
+        //         demo: "https://sites.google.com/view/mutualunderstanding/game?authuser=0"
+        //     }
+        // ],
 
         // Default alphabetical, or customize with an array of game names.
         // Games not listed here are excluded.
