@@ -21,22 +21,22 @@
          "commander": "*",
          "fs-extra": "*",
          "smoosh": "0.4.0",
-         "nodegame-client": "*",
+         "nodegame-client": "^6.0.0",
          "nodegame-server": "git://github.com/nodegame/nodegame-server.git#nophantom",
-         "nodegame-window": "*",
-         "nodegame-widgets": "*",
-         "nodegame-requirements": "*",
-         "nodegame-monitor": "*",
+         "nodegame-window": "^6.0.0",
+         "nodegame-widgets": "^6.0.0",
+         "nodegame-requirements": "^6.0.0",
+         "nodegame-monitor": "^6.0.0",
          "JSUS": "*",
-         "NDDB": "*",
+         "NDDB": "^2.0.0",
          "shelf.js": "*",
          "nodegame-mturk": "*",
          "nodegame-db": "*",
          "nodegame-mongodb": "*",
          "nodegame-generator": "*",
-         "nodegame-game-template": "*",
-         "ultimatum-game": "*"
-    }            
+         "nodegame-game-template": "^6.0.0",
+         "ultimatum-game": "^6.0.0"
+    }
   , "license": "MIT"
   , "scripts": {
         "start": "node launcher.js"
