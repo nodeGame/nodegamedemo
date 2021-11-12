@@ -22,3 +22,6 @@
 [submodule "games/HawkDove"]
 	path = games/HawkDove
 	url = https://github.com/ewenw/HawkDove.git
+[submodule "games/survey"]
+	path = games/survey
+	url = git@github.com:nodeGame/survey.git
