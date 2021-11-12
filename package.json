@@ -1,44 +1,47 @@
 {
-    "name": "nodegame-heroku"
-  , "description": "Setups the nodeGame demo to run on the heroku cloud."
-  , "version": "6.0.0"
-  , "homepage": "http://nodegame.org"
-  , "author": "Stefano Balietti <futur.dorko@gmail.com>"
-  , "contributors": [
-        { "name": "Stefano Balietti", "email": "futur.dorko@gmail.com" }
-    ]
-  , "repository": {
-        "type": "git"
-      , "url": "https://github.com/nodeGame/nodegamedemo.git"
-    }
-  , "keywords": [
-        "Heroku",
-        "nodeGame",
-        "cloud"
-    ]
-  , "engines": { "node": ">= 6.0.0" }
-  , "dependencies" : {
-         "commander": "*",
-         "fs-extra": "*",
-         "smoosh": "0.4.0",
-         "nodegame-client": "^6.0.0",
-         "nodegame-server": "git://github.com/nodegame/nodegame-server.git#nophantom",
-         "nodegame-window": "^6.0.0",
-         "nodegame-widgets": "^6.0.0",
-         "nodegame-requirements": "^6.0.0",
-         "nodegame-monitor": "^6.0.0",
-         "JSUS": "*",
-         "NDDB": "^2.0.0",
-         "shelf.js": "*",
-         "nodegame-mturk": "*",
-         "nodegame-db": "*",
-         "nodegame-mongodb": "*",
-         "nodegame-generator": "*",
-         "nodegame-game-template": "^6.0.0",
-         "ultimatum-game": "^6.0.0"
-    }
-  , "license": "MIT"
-  , "scripts": {
+    "name": "nodegame",
+    "description": "Fast, scalable JavaScript for large-scale, online, multiplayer, real-time games and experiments.",
+    "version": "7.0.4",
+    "homepage": "http://nodegame.org",
+    "author": "Stefano Balietti <futur.dorko@gmail.com>",
+    "contributors": [
+        {
+            "name": "Stefano Balietti",
+            "email": "futur.dorko@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nodeGame/nodegame.git"
+    },
+    "engines": {
+        "node": ">= 10.0.0"
+    },
+    "dependencies": {
+        "nodegame-client": ">=7.0.0",
+        "nodegame-server": ">=7.0.2",
+        "nodegame-window": ">=7.0.0",
+        "nodegame-widgets": ">=7.0.0",
+        "nodegame-requirements": ">=7.0.0",
+        "nodegame-game-template": ">=7.0.0",
+        "nodegame-monitor": ">=7.0.0",
+        "nodegame-generator": ">=7.0.0",
+        "ultimatum-game": ">=7.0.0",
+        "nodegame-mturk": ">=7.0.0",
+        "JSUS": ">=1.1.0",
+        "NDDB": ">=3.0.0",
+        "nodegame-db": "*",
+        "nodegame-mongodb": "*",
+        "commander": "^7.0.0",
+        "fs-extra": "*",
+        "smoosh": "0.4.0"
+    },
+    "devDependencies": {
+        "mocha": ">= 0.3.0",
+        "should": "4.4.1"
+    },
+    "license": "MIT",
+    "scripts": {
         "start": "node launcher.js"
-  }
+    }
 }
